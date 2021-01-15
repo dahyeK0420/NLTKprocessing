@@ -12,6 +12,6 @@ After scraping the tweets and store them as array of dictionaries, the tweets ar
 
 ## Text Processing using NLTK
 
-**``textProcessingNLTK** 
+**``textProcessingNLTK**`` 
 
 The program first scrapes semi-structured tweets from an excel file, ``semiStructuredTweets.xlsx``. After generating a structured data frame using pandas and xlrd, the tweets are all tokenised using ``nltk`` tokenisers. The tokens are exported as corpus vocabulary list. With the corpus vocabularies generated, top-100 most-frequently-appeared bigrams and unigrams are selected and exported into a text file. Additionally, count vectors of the corpus vocabularies are created using CountVectoriser from Sci-kit Learn. 
